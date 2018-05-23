@@ -11,7 +11,7 @@ Once authenticated, the script downloads data en masse and uploads it via libdlt
 
 # Running the harvester
 
-usage: temp.py [-h] [-w DOWNLOAD] [-n NDAYS] [-k KILLSWITCH] [-c COORDINATES]
+usage: app.py [-h] [-w DOWNLOAD] [-n NDAYS] [-k KILLSWITCH] [-c COORDINATES]
                [-d] [-v] [-q]
 
 Harvest Landsat 7/8 data for WildfireDLN
