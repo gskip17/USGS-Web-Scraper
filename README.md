@@ -16,22 +16,22 @@ usage: app.py [-h] [-w DOWNLOAD] [-n NDAYS] [-k KILLSWITCH] [-c COORDINATES]
 
 Harvest Landsat 7/8 data for WildfireDLN
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -w DOWNLOAD, --download DOWNLOAD
-                        Set local download directory
-  -n NDAYS, --ndays NDAYS
-                        Retrieve only images captured in the last n days
-                        (default is n=7)
-  -k KILLSWITCH, --killswitch KILLSWITCH
-                        Enable and activate kill switch after retrieving k
-                        buckets (default is disabled)
-  -c COORDINATES, --coordinates COORDINATES
-                        Retrieve only images containing the specified
-                        coordinates as latitude,longitude, e.g. -c-8.0,137.0
-  -d, --daemon          Indicates that the process should be run as a daemon
-  -v, --verbose         Produce verbose output from the script
-  -q, --quiet           Quiet mode, no logging of output
+optional arguments:  
+  -h, --help            show this help message and exit  
+  -w DOWNLOAD, --download DOWNLOAD  
+                        Set local download directory  
+  -n NDAYS, --ndays NDAYS  
+                        Retrieve only images captured in the last n days  
+                        (default is n=7)  
+  -k KILLSWITCH, --killswitch KILLSWITCH  
+                        Enable and activate kill switch after retrieving k  
+                        buckets (default is disabled)  
+  -c COORDINATES, --coordinates COORDINATES  
+                        Retrieve only images containing the specified  
+                        coordinates as latitude,longitude, e.g. -c-8.0,137.0  
+  -d, --daemon          Indicates that the process should be run as a daemon  
+  -v, --verbose         Produce verbose output from the script  
+  -q, --quiet           Quiet mode, no logging of output  
 
 # Some details and examples
 
